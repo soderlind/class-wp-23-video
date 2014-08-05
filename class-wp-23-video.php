@@ -12,13 +12,13 @@
  *    , 'video_p' => 1
  *   ) );
  *
- *  if ( '' !== $response && 'ok' == $response->status ) {
- *   printf( '<pre>%s</pre>', print_r( $response, true ) );
- *  } else if ( '' !== $response ) {
- *   echo 'ERROR: empty object';
- *  } else {
- *   printf( 'ERROR: <pre>%s</pre>', print_r( $response, true ) );
- *  }
+ *  if ( '' !== $response && 'ok' == $response['status']) {
+ *		printf( '<pre>%s</pre>', print_r( $response, true ) );
+ *	} else if ( '' !== $response) {
+ *		echo 'ERROR: empty object';
+ *	} else {
+ *		printf( 'ERROR: <pre>%s</pre>', print_r( $response, true ) );
+ *	}
  *
  *  Inspiration and code from https://github.com/aaroncampbell/twitter-widget-pro/blob/master/lib/wp-twitter.php, Copyright Aaron D. Campbell  ( email : wp_plugins@xavisys.com )
  *
