@@ -1,6 +1,6 @@
 # 23 Video for WordPress
 
-A simple WordPress library for communicating with your [23 Video site](http://www.23video.com/) using the [23 Video API](http://www.23video.com/api/).
+A simple WordPress library for communicating with your [23 Video site](http://www.23video.com/) using the [23 Video API](http://www.23video.com/api/). I wrote this library since I needed it for my [23 Video extension for WordPress Media Explorer](https://github.com/soderlind/mexp-23).
 
 ## Requirements and prerequisites
 
